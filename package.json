@@ -1,0 +1,27 @@
+{
+  "name": "gitwit",
+  "version": "0.1.7",
+  "description": "",
+  "main": "index.ts", 
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc --module commonjs && node dist/src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dockerode": "^3.3.5",
+    "dotenv": "^16.0.3",
+    "fs": "^0.0.1-security",
+    "json5": "^2.2.3",
+    "node-fetch": "^2.6.9",
+    "openai": "^3.2.1",
+    "tar": "^6.1.13"
+  },
+  "devDependencies": {
+    "@types/dockerode": "^3.3.16",
+    "@types/node": "^18.15.11",
+    "@types/node-fetch": "^2.6.3",
+    "@types/tar": "^6.1.4"
+  }
+}
